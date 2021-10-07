@@ -9,3 +9,11 @@ body{
 nav.menu{
     float: right;
 }
+
+header{
+    height: 280px;
+}
+
+footer{
+    height: 280px;
+}
