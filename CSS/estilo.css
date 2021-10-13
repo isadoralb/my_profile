@@ -23,3 +23,14 @@ footer{
     margin: 3px;
     text-align: center;
 }
+
+/* footer */
+
+footer{
+    background-color: coral;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 230px;
+}
