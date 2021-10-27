@@ -28,6 +28,7 @@ footer{
 
 a.btn{
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 /* footer */
@@ -38,5 +39,9 @@ footer{
 
 footer p{
     text-align: center;
-    padding-top: 230px;
+    padding-top: 190px;
+}
+
+a.ajd{
+    margin-top: 20px;
 }
