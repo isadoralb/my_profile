@@ -24,6 +24,12 @@ footer{
     text-align: center;
 }
 
+/*cadastro & login */
+
+a.btn{
+    margin-top: 10px;
+}
+
 /* footer */
 
 footer{
