@@ -21,37 +21,47 @@
             <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
         </ul>
     </nav>
-
-
     <div class="jumbotron text-center" style="background-color: coral;">
-        <h1>Filmes</h1>
+        <h1>Cadastre um Filme</h1>
     </div>
-    <div class="container pb-5 pt-5 pr-1 pl-5 text-center">
+    <div class="container pl-5">
         <div class="row">
-            <div class="col col">
-                <h2>A Fantástica Fábrica de Chocolate</h2>
-                <a class="fanta" href="https://www.youtube.com/watch?v=gguVvhNheCM">Assista ao trailer</a></p>
-            </div>
-            <div class="col col">
-                <h2>Matilda</h2>
-                <a class="fanta" href="https://www.youtube.com/watch?v=pnzLRDDijW0">Assista ao trailer</a></p>
-            </div>
-            <div class="col col">
-                <h2>Rambo</h2>
-                <a class="fanta" href="https://www.youtube.com/watch?v=stWutFvRWo0">Assista ao trailer</a></p>
-            </div>
-            <div class="col col">
-                <h2>Transformers: O Último Cavaleiro</h2>
-                <a class="fanta" href="https://www.youtube.com/watch?v=qKlJFIx_NYI">Assista ao trailer</a></p>
+            <div class="col-sm-12">
+                <form>
+                    <label for="tdf">Título do Filme:</label>
+                    <input type="tdf" class="form-control" placeholder="Filme" id="tdf">
+                    <br>
+                    <Label for="elenco">Elenco Principal:</Label>
+                    <input type="text" class="form-control" placeholder="Elenco" id="elenco">
+                    <br>
+                    <Label for="sinop">Sinopse:</Label>
+                    <input type="text" class="form-control" placeholder="Sinopse" id="sinop">
+                    <br>
+                    <Label for="produtora">Produtora do Filme:</Label>
+                    <input type="text" class="form-control" placeholder="Produtora" id="produtora">
+                    <br>
+                    <label for="dura">Duração do Filme:</label>
+                    <input type="text" class="form-control" placeholder="Duração" id="dura">
+                    <br>
+                    <label for="indicação">Indicação Etária:</label>
+                    <input type="number" class="form-control" placeholder="Indicação Etária" id="indicação">
+                    <br>
+                    <div class="box form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">É Destaque?
+                        </label>
+                    </div>
+
             </div>
         </div>
     </div>
-    <h2>Cadastre um filme</h2>
 
-    <center>
-        <a class="cadastre" href="filme.html">Cadastre um Filme Aqui</a>
-    </center>
     <footer>
+        <center>
+            <button type="submit" class="pe btn-success">Enviar <a href="listagem.html">oi</a></button>
+            <input class="pee" type="reset" value="Cancelar" style="background-color: grey; color: white;"> <br>
+        </center>
+        </form>
         <a class="ajd nav-link" href="faq.html">Central de Ajuda</a></li>
         <p class="pe">Direitos autorais de filmeflix <br>
             entre em contato filmeflixbr@gmail.com
