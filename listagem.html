@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/CSS/estilo.css">
-    <title>Filmes</title>
+    <link rel="shourtcut icon" href="assets/imagens/logo.jpg" type="image/x-icon">
+    <title>Listagem dos Filmes</title>
 </head>
 
 <body>
@@ -23,11 +24,46 @@
     </nav>
 
     <div class="jumbotron text-center" style="background-color: coral;">
-        <h1>Cadastre um Filme</h1>
+        <h1>Listagem dos Filme</h1>
     </div>
-
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Título do Filme</th>
+            <th scope="col">É Destaque</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">001</th>
+            <td>Fantástica Fábrica de Chocolate</td>
+            <td>Não</td>
+            <td> <a href="filme.html"><img src="assets/imagens/editar.png" style="width: 30px;" alt="error"></a> <img class="excluir" src="assets/imagens/excluir.png" alt="error" style="width: 35px;"> </td>
+          </tr>
+          <tr>
+            <th scope="row">002</th>
+            <td>Matilda</td>
+            <td>Não</td>
+            <td> <a href="filme.html"><img src="assets/imagens/editar.png" style="width: 30px;" alt="error"></a> <img class="excluir" src="assets/imagens/excluir.png" alt="error" style="width: 35px;"> </td>
+          </tr>
+          <tr>
+            <th scope="row">003</th>
+            <td>Rambo</td>
+            <td>SIm</td>
+            <td> <a href="filme.html"><img src="assets/imagens/editar.png" style="width: 30px;" alt="error"></a> <img class="excluir" src="assets/imagens/excluir.png" alt="error" style="width: 35px;"> </td>
+          </tr>
+          <tr>
+            <th scope="row">004</th>
+            <td>Transformers: O Ultímo Cavaleiro</td>
+            <td>Sim</td>
+            <td> <a href="filme.html"><img src="assets/imagens/editar.png" style="width: 30px;" alt="error"></a> <img class="excluir" src="assets/imagens/excluir.png" alt="error" style="width: 35px;"> </td>
+          </tr>
+        </tbody>
+      </table>
     <footer>
-        <a class="ajd nav-link" href="faq.html">Central de Ajuda</a></li>
+        <a class="ajd nav-link" href="faq.html">Central de Ajuda</a>
+        <a class="adj nav-link" href="reportbug.html">Reportar bugs</a>
         <p class="pe">Direitos autorais de filmeflix <br>
             entre em contato filmeflixbr@gmail.com
         </p>

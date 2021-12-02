@@ -1,61 +1,81 @@
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
 
-nav.menu{
-    float: right;
+nav.menu {
+  float: right;
 }
 
-header{
-    width: 280px;
+header {
+  width: 280px;
 }
 
-footer{
-    height: 280px;
-}
 
-.col{
-    background-color: coral;
-    margin: 3px;
-    text-align: center;
+.col {
+  background-color: coral;
+  margin: 3px;
+  text-align: center;
 }
 
 /*cadastro & login */
 
-a.btn{
-    margin-top: 10px;
-    margin-bottom: 15px;
+a.btn {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 /* footer */
 
-footer{
-    background-color: coral;
+footer {
+  height: 400px;
+  background-color: coral;
 }
 
-footer p{
-    text-align: center;
-    padding-top: 190px;
+footer p {
+  text-align: center;
+  padding-top: 190px;
 }
 
-a.ajd{
-    margin-top: 20px;
+a.ajd {
+  margin-top: 20px;
 }
 
 /* cadastro de filmes */
 
-.pee{
-    margin-top: 20px;
+.pee {
+  margin-top: 20px;
 }
 
-.box{
-    margin-bottom: 20px;
+.box {
+  margin-bottom: 20px;
 }
 
-a .cadastre{
+a .cadastre {
+  text-align: center;
+}
+
+/* Exebição */
+
+.boxx {
+  width: 50%;
+  float: left;
+  height: 500px; /*Altura da linha*/
+}
+
+.linha-vertical {
+  border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  box-sizing: border-box;
+}
+
+.text{
     text-align: center;
+}
+
+/* Listagem */
+.excluir{
+  margin-left: 30px;
 }
