@@ -14,7 +14,6 @@ header {
   width: 280px;
 }
 
-
 .col {
   background-color: coral;
   margin: 3px;
@@ -71,49 +70,48 @@ a .cadastre {
   box-sizing: border-box;
 }
 
-.text{
-    text-align: center;
+.text {
+  text-align: center;
 }
 
 /* Listagem */
-.excluir{
+.excluir {
   margin-left: 30px;
 }
 /* jobs */
 
-.card{
+.card {
   margin-top: 50px;
   margin-left: 100px;
-  }
-  
-  .form-control{
-      margin-left: 700px;
-  }
-  
-  .search-input{
-      background-color: rgb(228, 102, 48); 
-      border: 2px solid #fff; 
-      box-shadow: none; 
-      border-radius: 50px;
-      color: #fff;
-     }
-  
-     .search-input ::-webkit-input-placeholder, .search-input :-moz-placeholder, .search-input ::-moz-placeholder, .search-input :-ms-input-placeholder { 
-        color: #fff;
-        font-weight: bold;
-     }
-  
-  /** rotation if needed **/
-    .glyphicon-rotate-180 {
-      transform: scaleX(-1);
+}
+
+.search-input {
+  background-color: rgb(228, 102, 48);
+  border: 2px solid #fff;
+  box-shadow: none;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.search-input ::-webkit-input-placeholder,
+.search-input :-moz-placeholder,
+.search-input ::-moz-placeholder,
+.search-input :-ms-input-placeholder {
+  color: #fff;
+  font-weight: bold;
+}
+
+/** rotation if needed **/
+.glyphicon-rotate-180 {
+  transform: scaleX(-1);
   -moz-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
-     }
-  
-     .search-icon {
-     position:relative; 
-     color: #fff; 
-     right: 30px; 
-     top: 2px;
-     }
+}
+
+.search-icon {
+  position: relative;
+  color: #fff;
+  right: 30px;
+  top: 2px;
+}
