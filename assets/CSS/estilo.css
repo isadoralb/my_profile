@@ -30,19 +30,22 @@ a.btn {
 /* footer */
 
 footer {
-  height: 400px;
+  height: 280px;
   background-color: coral;
 }
 
 footer p {
   text-align: center;
-  padding-top: 190px;
+  padding-top: 150px;
 }
 
 a.ajd {
   margin-top: 20px;
 }
 
+.roda{
+  padding-top: 75px;
+}
 /* cadastro de filmes */
 
 .pee {
